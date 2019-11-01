@@ -14,71 +14,60 @@
 
 
    /* ----------------------NAvbar----------------------------- */
-   .navabar-container {
+#header {
+    background: #ad1457;
+}
+
+#header .header-container {
     width: 100%;
-    /* max-width: 1140px; */
-    /* margin: auto; */
+    position: relative;
+    color: #FFF;
 }
 
-.top-navbar {
-    color: white;
-    background-color: var(--primaryColor);
-}
-.navbar-content {
-    font-family: sans-serif;
-    /* padding: 23px; */
-}
+#header .h-brand {width: 70%;padding: 40px;}
 
-.navbar-brand {
-    font-size: 25px;
-    /* padding: 40px 0; */
-}
-.brand-wrapper {
-    padding: 40px 0;
-    margin: auto;
-    max-width: 1140px;
-}
-
-.navbar-menu {
-    max-width: 1140px;
-    margin: auto;
-}
-.navbar-nav {
-    padding: 23px 0;
-    display: flex;
-}
-
-.nav-link {
-    color: white;
-    padding: 23px 10px;
-    text-decoration: none;
-}
-
-.nav-item {
-    color: white;
-    list-style: none;
-}
-.brand {
+#header .h-social {
     width: 30%;
+    padding: 40px;
 }
 
-.sosmed {
-    width: 70%;
-}
-
-.sosmed-menu {
-    float: right;
+.sosmed-wrap {
     display: flex;
+    flex-wrap: wrap;
 }
 
-li.sosmed-item {/* float: right; */list-style: none;}
-
-.sosmed-link {
-    color: white;
-    font-size: 23px;
-    padding: 23px;
+.sosmed-wrap .sosmed-item {
+    padding: 0 10px;
+}
+.sosmed-wrap .sosmed-item a {
+    text-decoration: none;
+    color: #FFF;
 }
 
+/*navbar*/
+.menu-container {
+    position: relative;
+    width: 100%;
+}
+
+.navbar .nav-wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar .nav-wrap .nav-item a {
+    line-height: 60px;
+    padding: 0 10px;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: auto;
+}
 /* -------------------------------content ----------------------------- */
    .main-container{
        padding-top: 40px;
@@ -348,6 +337,14 @@ li.sosmed-item {/* float: right; */list-style: none;}
 .nav-item {
     color: white;
     list-style: none;
+    float:left;
+}
+
+#nav-top .waifu {
+    float: right;
+}
+.nav-item:hover {
+    background: #880e4f;
 }
 .brand {
     width: 30%;
