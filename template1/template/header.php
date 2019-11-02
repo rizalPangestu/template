@@ -9,8 +9,10 @@
     <header id="header">
             <div class="header-container">
                 <div class="row">
-                    <div class="h-brand">
-                        <h2>CodeArt</h2>
+                    <div class="h-brand brand-active">
+                        <a href="#">
+                            <h2>CodeArt</h2>    
+                        </a>
                     </div>
                     <div class="h-social">
                         <ul class="sosmed-wrap">
@@ -22,15 +24,28 @@
                     </div>
                 </div>
             </div>   
-            <div class="menu-container">
-              <nav id="nav-top" class="navbar">
-                <ul class="nav-wrap">
-                    <li class="nav-item"><a href="#">Menu 1</a></li>
-                    <li class="nav-item"><a href="#">Menu 2</a></li>
-                    <li class="nav-item"><a href="#">Menu 3</a></li>
-                    <li class="nav-item"><a href="#">Menu 4</a></li>
-                    <li class="nav-item waifu"><a href="#">Your Waifu/Husbando</a></li>
-                </ul>
+            <div id="nav-top" class="menu-container show">
+              <nav class="navbar">
+                  <div class="row" style="overflow: hidden;">
+                      <div id="logo-slides" class="brand-active logo-out-menu">
+                        <a href="#">
+                            <h2>CodeArt</h2>    
+                        </a>
+                      </div>
+                      <span id="toggleMenu" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </span>
+                      <div id="menu-slides" class="nav-slides nav-out-menu">
+                          <ul class="nav-wrap">
+                          <li class="nav-item"><a href="#">Menu 1</a></li>
+                          <li class="nav-item"><a href="#">Menu 2</a></li>
+                              <li class="nav-item"><a href="#">Menu 3</a></li>
+                              <li class="nav-item"><a href="#">Menu 4</a></li>
+                          </ul>
+                      </div>                       
+                  </div>
               </nav>
             </div>
     </header>
