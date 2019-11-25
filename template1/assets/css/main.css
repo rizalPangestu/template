@@ -543,7 +543,210 @@
     color: white;
 }
    
-   
+/* Single Post */
+.main-container {
+    margin: auto;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.single_post-wrapper {
+    width: 100%;
+}
+
+ .single_post-container .single_post-wrapper {
+    
+    margin: 40px 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ------------thumbnail-------- */
+.img-wrapper {
+    width: 50%;
+}
+.img-wrapper .post-img {
+    align-items: center;
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    padding: 15% 23px;
+}
+.img-wrapper .post-img img {
+    /* position: absolute; */
+    /* transform: translate(0, -50%); */
+    border-radius: 15px;
+    width: 100%;
+    top: 50%;
+}
+
+/* ---------------Content---------- */
+.content-wrapper {
+    width: 50%;
+    padding: 23px;
+}
+.btn-menu .btn-dots {
+    padding: 23px 0px;
+}
+.btn-menu .btn-upload {
+    padding: 23px 0px;
+}
+.btn-menu .btn-save {
+    padding: 10px 0px;
+    flex: 1;
+}
+.btn-menu .btn-save .save {
+    font-size: 20px;
+    border-radius: 29px;
+    font-weight: bold;
+    background: red;
+    float: right;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+.btn-menu .btn-upload .upload {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 23px;
+    color: black;
+    font-weight: bold;
+}
+.btn-menu .btn-dots .dots {
+    text-decoration: none;
+    padding: 23px 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.uploader .secondary-info-uploader .uploader-name {
+    padding: 15px;
+}
+
+.uploader .uploader-name {
+    padding: 15px 0;
+}
+.uploader .secondary-info-uploader .info-img {
+    padding: 15px 0px;
+}
+
+.uploader .secondary-info-uploader .info-img img {
+    /* padding: 15px; */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 0;
+}
+.uploader .secondary-info-uploader .uploader-name p {
+    padding: 15px;
+    align-items: center;
+}
+
+.uploader .secondary-info-uploader .btn-follow {
+    padding: 15px 0px;
+    flex: 1;
+  }
+
+  .uploader .secondary-info-uploader .btn-follow .follow {
+    border-radius: 24px;
+    color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    float: right;
+    background: #cecbcb80;
+}
+
+/* ----------comment------------ */
+.comments-wrapper .btn-comments .photos-wrapper .add-photos {
+    padding: 23px 0px;
+}
+.comments-wrapper .btn-comments .photos-wrapper .add-photos .btn-photos{
+    transition: 0.2s;
+    padding-right: 15px;
+}
+
+
+.comments-wrapper .btn-comments .comment-wrapper .add-comment {
+    padding: 23px 0px;
+}
+
+.comments-wrapper .comments-content {
+    display: flex;
+}
+.comments-wrapper .comments-content .comment-text {
+    padding: 15px 0px;
+}
+
+
+.comments-wrapper .comments-content .btn-upload {
+    /* padding: 15px; */
+    flex: 1;
+    align-items: center;
+}
+
+.comments-wrapper .comments-content .btn-upload .upload {
+    flex: 1;
+    padding: 16px;
+    align-items: center;
+    float: right;
+    background-color: #cecbcb80;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 24px;
+}
+
+.comments-wrapper .comments-content .btn-upload .upload a {
+    align-items: center;
+}
+.comments-wrapper .btn-comments .btn {
+    color: black;
+    transition: 0.2s;
+    /* background-color: aliceblue; */
+    text-decoration: none;
+    padding: 10px 0px;
+    box-shadow: unset !important;
+}
+.comments-wrapper .btn-comments .btn:hover {
+    border-bottom: 2px solid black;
+    /* transition: 0.2s; */
+}
+/* ----------History----------- */
+.history-wrapper .info-img {
+    padding: 15px 0px;
+}
+
+.history-wrapper .info-img img {
+    /* padding: 15px; */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 0;
+}
+
+.history-wrapper .uploader-name {
+    align-items: center;
+    padding: 15px 0px;
+    vertical-align: middle;
+}
+.history-wrapper .uploader-history .history {
+    padding: 15px 5px;
+}
+.history-wrapper .uploader-name p {
+    padding: 15px 5px;
+}
+
+.history-wrapper .uploader-history {
+    padding: 15px 0px;
+}
+.uploader-history .history .title {
+    padding: 0px 5px;
+}
+
+
    
 /*Responsive*/
 
@@ -630,5 +833,15 @@
 
 	.menu-toggle.show span:nth-child(3) {
 	    display: none;
-	}
+    }
+    .img-wrapper{
+        width: 100%;
+    }
+    .img-wrapper .post-img{
+        padding: 23px;
+    }
+    .content-wrapper{
+        width: 100%;
+    }
+
 }
